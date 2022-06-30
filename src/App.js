@@ -1,11 +1,12 @@
 import './App.css';
+import Main from './main/Main';
+import Nav from './nav/Nav';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>New Start</p>
-      </header>
+      <Nav />
+      <Main />
     </div>
   );
 }
